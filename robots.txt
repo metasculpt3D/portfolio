@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://[your-domain]/sitemap.xml
+Sitemap: https://zilpatel021.pages.dev/sitemap.xml

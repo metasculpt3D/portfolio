@@ -15,19 +15,12 @@ These are already set in `index.html` / related files:
 | Email | zil212002@gmail.com |
 | WhatsApp | 918460525467 (`+918460525467` in JSON-LD) |
 | LinkedIn | https://linkedin.com/in/zil-patel-765272367 |
+| Live site | https://zilpatel021.pages.dev/ |
 | Proof line | 6+ sites launched · Based in Vadodara · Available remotely |
 | Work | Unusually, SiteIQ, Avsar Photography (live previews) |
 | Manifest short name | Zil Patel |
 
-## Remaining placeholders
-
-| Placeholder | File | What to put there | Done |
-| --- | --- | --- | --- |
-| `[your-domain]` | `index.html` canonical, `og:url`, `twitter:url`, JSON-LD `url` / image URLs | Live origin as `https://example.com/` (trailing slash) | [ ] |
-| `[your-domain]` | `robots.txt` `Sitemap:` | Same origin + `sitemap.xml` | [ ] |
-| `[your-domain]` | `sitemap.xml` `<loc>` | Same origin | [ ] |
-
-`404.html` has no bracketed placeholders.
+The live origin is `https://zilpatel021.pages.dev/` in the canonical link, Open Graph and Twitter URLs, JSON-LD, `robots.txt`, and `sitemap.xml`. `404.html` has no site-origin placeholder.
 
 ## Writing
 

@@ -4,6 +4,8 @@ A single-page freelance site for web design and development in Vadodara. Plain H
 
 The page introduces the work, lists three services, shows three live project previews, and takes enquiries through Web3Forms + hCaptcha.
 
+Live site: https://zilpatel021.pages.dev/
+
 ## Structure
 
 ```text
@@ -87,19 +89,12 @@ Previews are non-interactive (`pointer-events: none`). Use **View live site** to
 
 ## Replace before launch
 
-Search the project for `[`. Remaining placeholders:
-
-| Placeholder | Where |
-| --- | --- |
-| `[your-domain]` | `index.html` (canonical, OG, Twitter, JSON-LD), `robots.txt`, `sitemap.xml` |
-| Access key | Already set in the form — rotate if this repo is public |
+The live origin is `https://zilpatel021.pages.dev/` in canonical, `og:url`, `twitter:url`, JSON-LD `url`, `Sitemap:` in `robots.txt`, and `<loc>` in `sitemap.xml`. The form access key is already set — rotate it if this repo is public.
 
 Also add if missing:
 
 - `assets/images/profile/profile.webp` (480×600)
 - `assets/images/og-image.jpg` (1200×630)
-
-Set the same site URL, with `https` and a trailing slash, in canonical, `og:url`, `twitter:url`, JSON-LD `url`, `Sitemap:` in `robots.txt`, and `<loc>` in `sitemap.xml`.
 
 ## Deploy
 
@@ -131,11 +126,11 @@ Publish this folder as it is. Leave the build command empty. The site must be se
 2. At the DNS host, add the records that host shows.
 3. Turn on HTTPS and wait until the certificate is active.
 4. Redirect `www` to the main hostname.
-5. Replace `https://[your-domain]/` everywhere listed above with that origin (trailing slash).
+5. Replace `https://zilpatel021.pages.dev/` in the HTML, `robots.txt`, and `sitemap.xml` with that origin (trailing slash).
 
 ## Before launch
 
-- [ ] Replace `[your-domain]` in HTML, `robots.txt`, and `sitemap.xml`
+- [x] Live origin `https://zilpatel021.pages.dev/` set in HTML, `robots.txt`, and `sitemap.xml`
 - [ ] Add profile and OG images if still missing
 - [ ] Confirm resume link path matches a file under `assets/docs/`
 - [ ] Submit a test enquiry on the live domain (captcha included)

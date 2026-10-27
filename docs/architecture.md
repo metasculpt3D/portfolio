@@ -85,7 +85,7 @@ Honeypot `botcheck`: if checked, the script pretends success and does not submit
 | `sitemap.xml` | Single homepage `loc` + `lastmod` |
 | `site.webmanifest` | Name, icons, display browser |
 
-Replace `https://[your-domain]/` in HTML, robots, and sitemap with the live origin (trailing slash) before launch.
+The live origin is `https://zilpatel021.pages.dev/` in the HTML, `robots.txt`, and `sitemap.xml`.
 
 ## Decisions
 

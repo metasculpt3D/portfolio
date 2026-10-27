@@ -6,7 +6,7 @@ Related: [README](../README.md) · [Design system](design-system.md) · [Content
 
 ## Content
 
-- [ ] `[your-domain]` replaced in `index.html`, `robots.txt`, and `sitemap.xml` (same origin, trailing slash)
+- [x] Live origin `https://zilpatel021.pages.dev/` set in `index.html`, `robots.txt`, and `sitemap.xml` (trailing slash)
 - [ ] Proof figures and project outcomes are facts you can stand behind
 - [ ] Profile photo and `og-image.jpg` exist at the paths in `index.html`
 - [ ] Resume link opens a real file under `assets/docs/`
